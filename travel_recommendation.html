@@ -27,7 +27,7 @@
           placeholder="Enter a destination or keyword"
         />
         <button type="button" onclick="executeSearch()">Search</button>
-        <button type="reset">Reset</button>
+        <button type="button" onclick="clearSearch()">Clear</button>
       </form>
     </nav>
 
@@ -51,7 +51,7 @@
         </div>
 
         <!-- Introduction Column -->
-        <div class="intro-column">
+        <div class="intro-column" id="home-intro">
           <h1>Explore Dream <br />Destination</h1>
           <p>
             The Travel recommendation app helps users explore popular travel
@@ -64,11 +64,13 @@
           </p>
           <button class="book-btn">Book Now</button>
         </div>
-      </div>
-      <!-- Future Search Results Column -->
-      <div class="results-column">
-        <!-- This section will later display search results -->
+        <!-- Future Search Results Column -->
+        <div class="results-column" id="resultsContainer">
+          <h2>Search Results</h2>
+          <!-- This section will later display search results -->
+        </div>
       </div>
     </main>
+    <script src="travel_recommendation.js"></script>
   </body>
 </html>
