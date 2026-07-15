@@ -1,9 +1,7 @@
 // Fetch travel data from a local JSON file
 async function fetchTravelData() {
   try {
-    const response = await fetch(
-      "./blob/master/travel_recommendation_api.json",
-    );
+    const response = await fetch("./travel_recommendation_api.json");
 
     if (!response.ok) {
       throw new Error(`Failed to load data: ${response.status}`);
