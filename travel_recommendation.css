@@ -1,0 +1,251 @@
+/*-------nav bar styles--------*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f2d3a;
+  padding: 10px 20px;
+  border-bottom: 1px solid #0f2d3a;
+  font-size: 20px;
+}
+
+.navbar .nav-header {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 18px;
+}
+
+.search-form input {
+  padding: 5px 10px;
+  width: 300px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.search-form button {
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #63ada8;
+  color: white;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 2px #63ada8 solid;
+}
+
+/* ----- home styles -------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/background-img.jpg"); /* Replace with your image */
+  background-size: cover; /* Ensures full-page coverage */
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  min-height: 100vh;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Light overlay for readability */
+}
+
+/* Left Column: Social Media */
+.social-column {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-column a {
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+
+/* Middle Column: Introduction */
+.intro-column {
+  padding: 40px;
+}
+
+.intro-column h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.intro-column p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Right Column: Future Search Results */
+.results-column {
+  padding: 40px;
+}
+
+.book-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: white;
+  color: #0f2d3a;
+  border-radius: 6px;
+  font-size: 18px;
+  border: 2px #0f2d3a solid;
+  margin-top: 8px;
+}
+
+/* ----- about page styles -------*/
+
+.about-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Light overlay for readability */
+  padding: 4px 8px;
+}
+
+.about-info {
+  color: white;
+  max-width: 80%;
+  padding: 4px;
+}
+
+.about-info h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.about-info p {
+  font-size: 22px;
+}
+
+.team-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.team-info-card {
+  width: 200px;
+  text-align: center;
+}
+
+.team-info .icon {
+  font-size: 32px;
+}
+
+.team-info .btn {
+  background-color: #0f2d3a;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+/* ----- contact form styles -------*/
+.contact-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Light overlay for readability */
+  padding: 4px 8px;
+}
+
+.contact-container .contact-info {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 20px;
+  color: white;
+}
+
+.contact-container h2 {
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+.contact-container p {
+  font-size: 22px;
+}
+
+.contact-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 22px;
+}
+
+.contact-container button {
+  padding: 10px 16px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #0f2d3a;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid #0f2d3a;
+  font-size: 22px;
+}
